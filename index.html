@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="controls">
+        <button id="resizeBtn">New Grid</button>
+        <label>
+            Mode:
+            <select id="modeSelect">
+                <option value="draw">Draw</option>
+                <option value="random">Random Color</option>
+                <option value="darken">Progressive Darken</option>
+            </select>
+        </label>
+        <button id="clearBtn">Clear</button>
+    </header>
+
+    <main>
+        <div id="container" class="grid-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
