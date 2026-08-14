@@ -21,6 +21,5 @@ git branch -M main
 git push -u origin main
 ```
 
-Notes
+Note:
 - The project uses a fixed drawing area of 960×960 pixels (see `styles.css`).
-- Limit user input when resizing to avoid excessive CPU/RAM use.
